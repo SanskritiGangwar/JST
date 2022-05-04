@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC45JST1220SRQ09VerifyIfTechisvisiblethenjobwillassignedwhenuserclickonAssingAllJobsbuttoninTechCalendar"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC28_JST_1220_S_RQ02_VerifytheAutomatedInventorySchedulingisEnabled_DisbaledIftheoptionIsActiveForInventorySchedulingsettoYES_NoinadmintabofJST"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC11_JST_1220_S_RQ02_VerifytheCopySettingslinkofInventoryshouldworktocopythesettingsfor_Branch_Region_Area_DT"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC23_JST1220SRQ02VerifytheMonthlyReschedulingPeriodthethresholdvalueforMindaysis30andMaxdaysis30"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC27JST1220SRQ02VerifytheInventoryFailurevaluesetto85bydefaultforallthebranchesinadmintabofJST"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC44JST1220SRQ09VerifynewauditlogtypeBulkAssignJobsaddedwhenclickedonAssignAllJobsbuttonforallvisibletechsinTechcalendar"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC10JST0920SRQ04VerifydisplayofAssignedbranchesfortechinadmintab"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC42_JST1220SRQ09VerifyAssignAllJobsbuttonaddedinTechcalendarandScheduleviewnearRunOptimizationbutton"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC24_JST1220SRQ02_VerifytheAnnualReschedulingPeriodandQuarterlyReschedulingPeriodthethresholdvalueforMindaysis75andMaxdaysis90"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC10_JST_1220_S_RQ02_VerifytheInventoryPeriodsectioninadmintabshouldallowedtosavethebranchesforAnnual_Quarterly_MonthlyPeriod"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC21_JST1220SRQ02VerifythemessageAutomatedInventorywouldnotberescheduledforFailedCountsIfInventoryFailuresetto0"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC67_JST1220SRQ21VerifyTimezonemanagementadminaccessYES"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC25JST1220SRQ02VerifytheInventoryFailuresetto0thenjobsshouldnotberescheduledduetoaninventorycountfailure"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC46_JST1220SRQ09VerifyAssignAllJobsoptionavailableinAdmintabwithHomeBranchAllBranchesNOradiobuttons"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC69_JST1220SRQ23VerifytheReadOnlyradiobuttonaddedforViewJobCondidateFlowoptioninadmintabofJST"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC41_JST1220SRQ09VerifyIfTechisnotvisiblethenjobwillnotassignedwhenuserclickonAssingAllJobsbuttoninTechCalendar"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC43_JST1220SRQ09_VerifypopmessageAreyousuretoassignalljobsondateforalltechsvisiblerightnowofthecalendarwithYes_NObuttonIfYesproceedIfNocancel"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC11JST0920SRQ04VerifythetechinManageteambyremovingatleastonedomainP1orRESIinadmintab"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC40_JST_1220_S_RQ07_Verifytheupdatecallcenterflowtocheckupto3weeksoutforappointmentsinJSTUI"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC68JST1220S_RQ21VerifyTimezonemanagementadminaccessNO"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

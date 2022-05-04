@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+    
+      <class name="JSTManageTeamSubContractorAutomationUnderTest.TC19ManageTeamAddstartandenddatetoOneandAlltheadditionalbranchesandverifyiftheadditionalbranchisdeletedaftertheenddateforContractors"/>
+    <class name="JSTManageTeamSubContractorAutomationUnderTest.TC24ManageTeamSCAddtheavailabiltybacktothetechandverifyifitreflectsintechcalendartab"/>
+       <class name="JSTManageTeamSubContractorAutomationUnderTest.JST01TC02AddCapacityForEmployeeforSubContractor"/>
+   
+   <class name="JSTManageTeamSubContractorAutomationUnderTest.JST1JSTTC35AddTerritoriessectioninSubContractorsviewofManageTeam"/> 
+    <class name="JSTManageTeamSubContractorAutomationUnderTest.TC32ManageTeamSubContractorAudittableforManageteamLikeJobAudit"/>
+    <class name="JSTManageTeamSubContractorAutomationUnderTest.TC23ManageTeamVerifystartandenddateforadditionalbranchesaddedforSubContractor"/>
+     <class name="JSTManageTeamSubContractorAutomationUnderTest.TC35ManageTeamForSubcontractorsyoushldnotbeabletoeditafterterritorysectionanditshldnotupdateinauditpageaswell"/>
+     <class name="JSTManageTeamSubContractorAutomationUnderTest.TC65ManageTeamSubContractorAbilitytosearchskillsetstoverifywhichtechsinbranchhaveskillAssigned"/>
+     <class name="JSTManageTeamSubContractorAutomationUnderTest.TC51ManageTeamVerifyDeletedBranchinTechCalenderSubContractor"/>
+      
+      
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

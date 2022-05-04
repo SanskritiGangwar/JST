@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<!-- <test name="Batch03Test306"> <classes> <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC059JST0220SRQ25ScheduleJobAddJobAuditlogwhenschedulejobwithUnchecktraveltimeandcheckIgnoreskillJobSearch" 
+		/> </classes> </test> <test name="Batch03Test307"> <classes> <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC059JST0220SRQ25OpenJobAddJobAuditlogwhenschedulejobwithUnchecktraveltimeandcheckIgnoreskillJobSearch" 
+		/> </classes> </test> <test name="Batch03Test308"> <classes> <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC059JST0220SRQ25AssignedAddJobAuditlogwhenschedulejobwithUnchecktraveltimeandcheckIgnoreskillJobSearch" 
+		/> </classes> </test> <test name="Batch03Test309"> <classes> <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC058JST0220SRQ25OpenAddJobAuditlogwhenschedulejobwithchecktraveltimeandUncheckIgnoreskillJobSearch" 
+		/> </classes> </test> -->
+
+	<!-- <test name="Batch03Test310"> <classes> <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC057JST0220SRQ25ScheduledAddJobAuditlogwhenschedulejobwithUncheckbothtraveltimeorIgnoreskillinSmartscheduleJobSearch" 
+		/> </classes> </test> <test name="Batch03Test311"> <classes> <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC057JST0220SRQ25OpenAddJobAuditlogwhenschedulejobwithUncheckbothtraveltimeorIgnoreskillinSmartscheduleJobSearch" 
+		/> </classes> </test> -->
+
+	<!-- <test name="Batch03Test231"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q2TC061JST0220SRQ26MultipletimescheckuncheckthePermissionsorIgnoretraveltimeandignoreskillswhensmartscheduling" 
+		/> </classes> </test> <test name="Batch03Test232"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q2TC062JST0220SRQ26NoPermissionsforIgnoretraveltimeandignoreskillswhensmartscheduling" 
+		/> </classes> </test> -->
+
+
+	<!-- <test name="Batch03Test223"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC43_JST1220SRQ09_VerifypopmessageAreyousuretoassignalljobsondateforalltechsvisiblerightnowofthecalendarwithYes_NObuttonIfYesproceedIfNocancel" 
+		/> </classes> </test> <test name="Batch03Test224"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC44JST1220SRQ09VerifynewauditlogtypeBulkAssignJobsaddedwhenclickedonAssignAllJobsbuttonforallvisibletechsinTechcalendar" 
+		/> </classes> </test> <test name="Batch03Test225"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q1_21_TC46_JST1220SRQ09VerifyAssignAllJobsoptionavailableinAdmintabwithHomeBranchAllBranchesNOradiobuttons" 
+		/> </classes> </test> -->
+
+	<!--<test name="Batch03Test277"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q4TC044JST0720SRQ02VerifyAddBranchrestrictionsinAdminTabYes" 
+		/> </classes> </test> <test name="Batch03Test278"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q4TC045JST0720SRQ02VerifyAddBranchrestrictionsinAdminTabNo" 
+		/> </classes> </test> <test name="Batch03Test279"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q4TC046JST0720SRQ02VerifyEmployeeSearchrestrictionsinAdminTabYES" 
+		/> </classes> </test> <test name="Batch03Test280"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q4TC047JST0720SRQ02VerifyEmployeeSearchrestrictionsinAdminTabNo" 
+		/> </classes> </test> <test name="Batch03Test281"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q4TC048JST0720SRQ02VerifyAddBranchrestrictioninTechcal" 
+		/> </classes> </test> -->
+
+	
+	<!-- <test name="Batch03Test227"> <classes> <class name="JSTAdminPageAutomationUnderTest.Q2FixedissuewithnotshowingTechnicianwithoutavailabilityonScheduleviewwhensearchbytechandinFindTechnicianflow" 
+		/> </classes> </test> -->
+
+	<!-- <test name="Batch03Test297"> <classes> <class name="JSTManageTeamPageTechnicianAutomationUnderTest.JST13TC36ShowavailabilityforAfterHoursblockTimeOffType" 
+		/> </classes> </test> <test name="Batch03Test298"> <classes> <class name="JSTManageTeamPageTechnicianAutomationUnderTest.JSTSmokeDependencyAddingAvailabiltyToTechnician" 
+		/> </classes> </test> <test name="Batch03Test299"> <classes> <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC16JST0920SRQ05VerifydeletionofMultitechStandardActivityinManageteamtabfromStandardActivitiesRequestsection" 
+		/> </classes> </test> -->
+
+	<test name="Batch03Test1:Map Tab">
+		<classes>
+			<class
+				name="JSTMapAutomationUnderTest.JST01TC04EditCoverageAreastohaveDaysofweek" />
+		</classes>
+	</test>
+
+
+	<test name="Batch03Test1:Job Search Page">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q2TC060JST0220SRQ26AddPermissionsforIgnoretraveltimeandignoreskillswhensmartscheduling" />
+		</classes>
+	</test>
+	<test name="Batch03Test2:Job Search Page">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST01TC04AbilitytofindmoreworkforatechnicianontheJSTMapJobsearchcriteria" />
+		</classes>
+	</test>
+	<test name="Batch03Test3:Job Search Page">
+		<classes>
+			<class
+				name="JSTSearchPageAutomationUnderTest.Q1_21_TC65JST1220SRQ18VerifyCustomerTypeIncludeinjobSearchpage" />
+		</classes>
+	</test>
+	<test name="Batch03Test4:Job Search Page">
+		<classes>
+			<class
+				name="JSTSearchPageAutomationUnderTest.Q1_21_TC64JST1220SRQ18VerifyCustomerTypeExcludeinJobSearchpage" />
+		</classes>
+	</test>
+	<test name="Batch03Test5:Job Search Page">
+		<classes>
+			<class
+				name="JSTSearchPageAutomationUnderTest.Q1_21_TC31JST0920SRQ09Verifyjobinformationopensautomaticallyinjobsearchbysinglejob" />
+		</classes>
+	</test>
+	<test name="Batch03Test6:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC39VerifyaditionalbranchtechsFromManualResceduleSmartSchedule" />
+		</classes>
+	</test>
+	<test name="Batch03Test7:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC38VerifyaditionalbranchtechsFromManualRescedule" />
+		</classes>
+	</test>
+	<test name="Batch03Test8:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC075JST0220SRQ72UpdateFindMoreWorkandSearchfunctionalitytoreturnemployeejoboffers" />
+		</classes>
+	</test>
+	<test name="Batch03Test9:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2UpdatedrulesofshowingEmpNowhenviewingTeamslinkedtobranchesfrom2companies" />
+		</classes>
+	</test>
+	<test name="Batch03Test10:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC077JST0220SRQ72UpdateFindMoreWorkandSearchfunctionalitytoreturnemployeejoboffers" />
+		</classes>
+	</test>
+	<test name="Batch03Test11:Job Search Page">
+		<classes>
+			<class
+				name="JSTJobStatusHistoryPageAutomationUnderTest.TC70JSTVerifyJobStatusHistory" />
+		</classes>
+	</test>
+	<test name="Batch03Test12:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC072JST0220SRQ71AddRescheduleJobbuttontoJobActionsmenuScheduleView" />
+		</classes>
+	</test>
+	<test name="Batch03Test13:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC064JST0220SRQ46RechedulejobfromtheresultsofSameSiteJobsonlyfilter" />
+		</classes>
+	</test>
+	<test name="Batch03Test14:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC029JST0320SAddManualJobEmployeeChangejobactiontypetojobaudit" />
+		</classes>
+	</test>
+	<test name="Batch03Test15:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2JSTBRKTC75JobrescheduleReturnreason" />
+		</classes>
+	</test>
+	<test name="Batch03Test16:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2JST09TC29CreatebuttontoremovescheduledjobswhenremovingtechnicianfromJSTMakingtechInactive" />
+		</classes>
+	</test>
+	<test name="Batch03Test17:Job Search Page">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2JST06TC11Wanttomanualschedulejobswithtimebands" />
+		</classes>
+	</test>
+
+
+	<!--  <test name="Batch03Test1:Schedule view">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC31ScheduleViewTechCalendarBranchTechniciansEditStandardActivities" />
+		</classes>
+	</test>-->
+	<test name="Batch03Test2:Schedule view">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC29ScheduleViewTechCalendarBranchTechniciansViewAssignedJobs" />
+		</classes>
+	</test>
+	<test name="Batch03Test3:Schedule view">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC26PerformSearchbyselectingSearchbyBranchonScheduleViewTab" />
+		</classes>
+	</test>
+	<test name="Batch03Test4:Schedule view">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC25PerformSearchbyselectingSearchbyEmployeeonScheduleViewTab" />
+		</classes>
+	</test>
+	<test name="Batch03Test5:Schedule view">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC24PerformSearchbyselectingjobonScheduleViewTab" />
+		</classes>
+	</test>
+	<test name="Batch03Test6:Schedule view">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC22DataandCalendarsettingsvalidationonScheduleviewtab" />
+		</classes>
+	</test>
+	<test name="Batch03Test7:Schedule view">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC20SecheduleViewEnabledevenifJobschedulingisnotthere" />
+		</classes>
+	</test>
+	<test name="Batch03Test8:Schedule view">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST01TC04ScheduleViewAbilitytofindmoreworkforatechnicianontheJSTMapJobsearchcriteria" />
+		</classes>
+	</test>
+
+	
+
+
+
+	<test name="Batch03Test1:Tech Calendar">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC30TechCalendarBranchTechniciansFindMoreWork" />
+		</classes>
+	</test>
+	<test name="Batch03Test2:Tech Calendar">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC31TechCalendarBranchTechniciansEditStandardActivities" />
+		</classes>
+	</test>
+	<test name="Batch03Test3:Tech Calendar">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC29TechCalendarBranchTechniciansViewAssignedJobs" />
+		</classes>
+	</test>
+	<test name="Batch03Test4:Tech Calendar">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC19VerifyLoadButtoninTechCalendar" />
+		</classes>
+	</test>
+	<test name="Batch03Test5:Tech Calendar">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.JSTViewTechCalenderTimeInterval" />
+		</classes>
+	</test>
+	<test name="Batch03Test6:Tech Calendar">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.JSTViewTechCalenderTechInfo" />
+		</classes>
+	</test>
+	<test name="Batch03Test7:Tech Calendar">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.JST10TC17UpdatejobactionslistforjoboncalendartogetopenedbyrightclickonlyforServiceJobs" />
+		</classes>
+	</test>
+	<test name="Batch03Test8:Tech Calendar">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.JST07TC28WanttodisplaytechsMMBnumberinsteadofEMPIDnumberonthecalendar" />
+		</classes>
+	</test>
+	<test name="Batch03Test9:Tech Calendar">
+		<classes>
+			<class
+				name="JSTViewTechCalenderPageAutomationUnderTest.JST02TC03Verifyifthetechcalenderdisplaysonly1dayviewwhilerevertthesettingsto1day" />
+		</classes>
+	</test>
+	<test name="Batch03Test10:Tech Calendar">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC074JST0220SRQ71AddRescheduleJobbuttontoJobActionsmenuTechCalendar" />
+		</classes>
+	</test>
+	<test name="Batch03Test11:Tech Calendar">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC073JST0220SRQ71AddRescheduleJobbuttontoJobActionsmenuTechCalendar" />
+		</classes>
+	</test>
+	<test name="Batch03Test12:Tech Calendar">
+		<classes>
+			<class
+				name="JSTEditTechStatusPageAutomationUnderTest.TC70JSTEditTechStatusSearch" />
+		</classes>
+	</test>
+	<test name="Batch03Test13:Tech Calendar">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.JST11TC24PossibilityofaddingavailabilityfrommidnightcheckinTechcalendar" />
+		</classes>
+	</test>
+	<test name="Batch03Test14:Tech Calendar">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.JST12TC28PossibilityofaddingtimeoffsfrommidnightcheckinTechcalendar" />
+		</classes>
+	</test>
+	<test name="Batch03Test15:Tech Calendar">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.JST12TC29PossibilityofaddingtimeoffsfrommidnightClearallavailable" />
+		</classes>
+	</test>
+	<test name="Batch03Test16:Tech Calendar">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.JST12TC31PossibilityofaddingtimeoffsfrommidnightSetdefaultforalldays" />
+		</classes>
+	</test>
+	<test name="Batch03Test17:Tech Calendar">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.JST12TC32PossibilityofaddingtimeoffsfrommidnightTechnicianOff" />
+		</classes>
+	</test>
+	<test name="Batch03Test18:Tech Calendar">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.JST13TC35ShowavailabilityforAfterHoursblockNight12to7buttonadded" />
+		</classes>
+	</test>
+	<test name="Batch03Test19:Tech Calendar">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC17AvailabilityWeeklyStartandendDateinTechCalender" />
+		</classes>
+	</test>
+
+
+	<test name="Batch03Test1:Subcontractors">
+		<classes>
+			<class
+				name="JSTManageTeamSubContractorAutomationUnderTest.Q4TC017JST0720SRQ05AbilitytoaddOvertimetoshiftsatIndividualTechlevelManageTeamSubContractors" />
+		</classes>
+	</test>
+
+
+
+
+	<test name="Batch03Test1:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamSubContractorAutomationUnderTest.Q4TC018JST0720SRQ05AbilitytoaddOvertimetoshiftsatIndividualTechlevelManageTeams" />
+		</classes>
+	</test>
+	<test name="Batch03Test2:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.JST01TC01ManageTeamTechniciansAddsamebranchmultipletimestoadditionalbranchesandVarifyinTechCalendartab" />
+		</classes>
+	</test>
+	<test name="Batch03Test3:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC70_JST_1220_S_RQ22_Verify3jobGroupsaddedforcommercialMMBSpinklerInspectionInstallServiceinJSTManageteamtabJobGroupsection" />
+		</classes>
+	</test>
+	<test name="Batch03Test4:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC02_JST_1220_S_RQ02_VerifytheInventoryTimeRangeIfAfterTechsShiftissetthedroplist" />
+		</classes>
+	</test>
+	<test name="Batch03Test5:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC045_JST_0121_S_RQ12_VerifyPriortotechshiftinInventorycalendarsettingsInventorytimeRange" />
+		</classes>
+	</test>
+	<test name="Batch03Test6:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC05_JST_1220_S_RQ02_VerifytheInventoryTimeRangeIfPriortoTechsShiftissetthedroplist" />
+		</classes>
+	</test>
+	<test name="Batch03Test7:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamSubContractorAutomationUnderTest.TCSmokeManageTeamAddAllDaySCAvailability" />
+		</classes>
+	</test>
+	<test name="Batch03Test8:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamSubContractorAutomationUnderTest.TC51ManageTeamVerifyDeletedBranchinTechCalenderSubContractor" />
+		</classes>
+	</test>
+	<test name="Batch03Test9:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamSubContractorAutomationUnderTest.TC32ManageTeamSubContractorAudittableforManageteamLikeJobAudit" />
+		</classes>
+	</test>
+	<test name="Batch03Test10:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamSubContractorAutomationUnderTest.TC24ManageTeamSCAddtheavailabiltybacktothetechandverifyifitreflectsintechcalendartab" />
+		</classes>
+	</test>
+	<test name="Batch03Test11:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TCSmokeManageTeamAddAllDayTechAvailabilityTemplate" />
+		</classes>
+	</test>
+	<test name="Batch03Test12:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC65ManageTeamTechniciansAbilitytosearchskillsetstoverifywhichtechsinbranchhaveskillAssigned" />
+		</classes>
+	</test>
+	<test name="Batch03Test13:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC51ManageTeamVerifyDeletedBranchinTechCalenderTestcase" />
+		</classes>
+	</test>
+	<test name="Batch03Test14:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC43ManageTeamShowAvailabilityForAfterHoursBlock" />
+		</classes>
+	</test>
+	<test name="Batch03Test15:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC41ManageTeamTimeFormatPossibilityofaddingavailabilityfrommidnight" />
+		</classes>
+	</test>
+	<test name="Batch03Test16:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC35ManageTeamClearAllAvailability" />
+		</classes>
+	</test>
+	<test name="Batch03Test17:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC34ManageTeamDisplaylastchangeuser" />
+		</classes>
+	</test>
+	<test name="Batch03Test18:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC32ManageTeamTechnicianAudittableforManageteamLikeJobAudit" />
+		</classes>
+	</test>
+	<test name="Batch03Test19:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC24ManageTeamAddtheavailabiltybacktothetechandverifyifitreflectsintechcalendartab" />
+		</classes>
+	</test>
+	<test name="Batch03Test20:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC22ManageTeamVerifystartandenddateforadditionalbranchesadded" />
+		</classes>
+	</test>
+	<test name="Batch03Test21:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC21ManageTeamVerifyifstartandenddateisdisplayedintechavailablitysection" />
+		</classes>
+	</test>
+	<test name="Batch03Test22:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC15ManageTeamAddmultipleadditionalbrancheswithdifferentbranchesapartfromtheoriginalbranchaddedtothetechinician" />
+		</classes>
+	</test>
+	<test name="Batch03Test23:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC060JST0720SRQ15VerifyRemoveWeeklyDefaultAvailabilityfromJSTinmanageteamavailability" />
+		</classes>
+	</test>
+	<test name="Batch03Test24:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC058JST0720SRQ07VerifyAddSelectorRemoveAllbuttonforEmployeeSkillsetandSystemKnowledgeinManageTeamtodeselectalltheskills" />
+		</classes>
+	</test>
+	<test name="Batch03Test25:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC053JST0720SRQ03VerifyAbilitytoshowdetailsforTemplatewithinManageTeamAvailabilityAddinggridforaddorremovetheavailabilityforoneday" />
+		</classes>
+	</test>
+	<test name="Batch03Test26:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC052JST0720SRQ03VerifyAbilitytoshowdetailsforTemplatewithinManageTeamAvailabilityAddalljobgroups" />
+		</classes>
+	</test>
+	<test name="Batch03Test27:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC051JST0720SRQ03VerifyAbilitytoshowdetailsforTemplatewithinManageTeamAvailabilitysectioncreateCapacityTemplate" />
+		</classes>
+	</test>
+	<test name="Batch03Test28:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC049JST0720SRQ03VerifyAbilitytoshowdetailsforTemplatewithinManageTeamAvailabilityToolTipfortemplate" />
+		</classes>
+	</test>
+	<test name="Batch03Test29:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC027JST0720SRQ8AddSelectRemoveAllbuttonforJobGroupAssignmentManageteamtabTeams" />
+		</classes>
+	</test>
+	<test name="Batch03Test30:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC015JST0720SRQ05AbilitytoaddOvertimetoshiftsatIndividualTechlevelManageTeamTechnicians" />
+		</classes>
+	</test>
+	<test name="Batch03Test31:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC003JST0720SRQ09VerifytheAddStartDateoptionisaddedforTechnicianstabonManageTeam" />
+		</classes>
+	</test>
+	<test name="Batch03Test32:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC22_JST_1220_S_RQ02VerifytheQuarterlyReschedulingPeriodforFailedCountswithMindaysandMaxdays" />
+		</classes>
+	</test>
+	<test name="Batch03Test33:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q41TC050JST0720SRQ03VerifyAbilitytoshowdetailsforTemplatewithinManageTeamAvailabilityIiconforthetemplatedetails" />
+		</classes>
+	</test>
+	<test name="Batch03Test34:Manage Team Tab">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC09_JST_1220_S_RQ02_VerifytheInventorySchedulingTechperdayforthebranchfromManageteamtab" />
+		</classes>
+	</test>
+
+
+	<test name="Batch03Test1:AdminTab">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q1_21_TC69_JST1220SRQ23VerifytheReadOnlyradiobuttonaddedforViewJobCondidateFlowoptioninadmintabofJST" />
+		</classes>
+	</test>
+	<test name="Batch03Test2:AdminTab">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q2JST03TC10UpdatingpermissionsforupdatingAddressesReadOnly" />
+		</classes>
+	</test>
+	<test name="Batch03Test3:AdminTab">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q2JST03TC12UpdatingpermissionsforupdatingAddressesAllBranches" />
+		</classes>
+	</test>
+	<test name="Batch03Test4:AdminTab">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q2_21_TC20_JST_1220_S_RQ02_VerifytheAnnualReschedulingPeriodforFailedCountswithMindaysandMaxdays" />
+		</classes>
+	</test>
+	<test name="Batch03Test5:AdminTab">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q3TC08JST0520SRQ03AddadditionalpermissionstoJSTAdminTabBranchRadioButton" />
+		</classes>
+	</test>
+	<test name="Batch03Test6:AdminTab">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q1_21_TC25JST1220SRQ02VerifytheInventoryFailuresetto0thenjobsshouldnotberescheduledduetoaninventorycountfailure" />
+		</classes>
+	</test>
+
+
+	<test name="Batch03Test1:3GAppointments">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q3TC48JST0520SRQ07AddthresholdconfigurationforNextAvailable3GAppointmentsADTMIN" />
+		</classes>
+	</test>
+	<test name="Batch03Test2:3GAppointments">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q3TC49JST0520SRQ07AddthresholdconfigurationforNextAvailable3GAppointmentsADTMAX" />
+		</classes>
+	</test>
+	<test name="Batch03Test3:3GAppointments">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q3TC50JST0520SRQ07AddthresholdconfigurationforNextAvailable3GAppointmentsADTDefault" />
+		</classes>
+	</test>
+	<test name="Batch03Test4:3GAppointments">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q3TC51JST0520SRQ07AddthreholdconfigurationforNextAvailable3GAppointmentsADTBulkUpdate" />
+		</classes>
+	</test>
+
+
+	<test name="Batch03Test1:CellProject">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q3TC30JST0520SRQ06VerifyCellProjectLiteJobGroupinJSTJobsearchTab" />
+		</classes>
+	</test>
+	<test name="Batch03Test2:CellProject">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q3TC36JST0520SRQ06VerifytheCellprojectandCellprojectliteintechcaltab" />
+		</classes>
+	</test>
+	
+	<!-- Needs to be seen while executing -->
+
+	<test name="Batch03Test1:Standard Activity">
+		<classes>
+			<class
+				name="JSTManageTeamSubContractorAutomationUnderTest.Q1_21_TC13JST0920SRQ05VerifyremovalofWeeklyRecurrenceMultitechStandardActivityforSubContractorsSubTab" />
+		</classes>
+	</test>
+	<test name="Batch03Test2:Standard Activity">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC022JST0720SRQ16StandardActivityWeeklyRecurrence" />
+		</classes>
+	</test>
+	<test name="Batch03Test3:Standard Activity">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC023JST0720SRQ16StandardActivityUpdateDeleteStdActivity" />
+		</classes>
+	</test>
+	<test name="Batch03Test4:Standard Activity">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC023JST0720SRQ16StandardActivityUpdateClearAllStdActivity" />
+		</classes>
+	</test>
+	<test name="Batch03Test5:Standard Activity">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC023JST0720SRQ16StandardActivityUpdateAddStdActivity" />
+		</classes>
+	</test>
+	<test name="Batch03Test6:Standard Activity">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC023JST0720SRQ16StandardActivityUpdate" />
+		</classes>
+	</test>
+	<test name="Batch03Test7:Standard Activity">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC023JST0720SRQ16StandardActivityUpdateRemoveWeeklyRecurenceStdActivity" />
+		</classes>
+	</test>
+</suite>

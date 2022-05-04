@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+    
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC26JSTViewTechCalenderVerifyNotifyOptionDisplayWithDifferentTechStatus"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC23JSTTechCalenderVerifyFixJobOptionDisplayWithDifferentTechStatus"/>
+    
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.JSTViewTechCalenderJobDetails"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.JSTViewTechCalenderSiteInfo"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.JSTViewTechCalenderTechInfo"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.JST02TC03Verifyifthetechcalenderdisplaysonly1dayviewwhilerevertthesettingsto1day"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.JST07TC28WanttodisplaytechsMMBnumberinsteadofEMPIDnumberonthecalendar"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.JST10TC17UpdatejobactionslistforjoboncalendartogetopenedbyrightclickonlyforServiceJobs"/>
+     <class name="JSTViewTechCalenderPageAutomationUnderTest.TC9JSTViewTechCalenderNotifyJobStatus"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC11JSTViewTechCalenderRemoveNotifyJobStatus"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC16JSTViewTechClenderDefaulttimeoffstartinglocationtobranchforInventoryStandardActivities"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC17JSTViewTechCalenderDefaulTimeoffStartinglocationforMeetingStandardActivities"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC18JSTViewTechCalenderDefaultTimeoffStartinglocationtobranchforPartsPendingStandardActivities"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC19JSTViewTechCalenderDefaultTimeoffstartinglocationtobranchforTrainingStandardActivities"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC4JSTViewTechCalenderJobResize"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC36JSTCalendarSettingsJobBlockViewChange"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC37JSTViewTechCalenderScheduleViewCalendarSettingsTimeFormat"/>
+     <class name="JSTViewTechCalenderPageAutomationUnderTest.TC7JSTViewTechCalenderFixJobStatus"/>
+     <class name="JSTViewTechCalenderPageAutomationUnderTest.TC42JSTViewTechCalenderUnFixJobStatus"/>
+    
+       <class name="JSTViewTechCalenderPageAutomationUnderTest.JSTtechCalenderViewImportantContacts"/>
+     <class name="JSTViewTechCalenderPageAutomationUnderTest.JSTtechCalenderManageTechnician"/>
+     <class name="JSTViewTechCalenderPageAutomationUnderTest.JSTViewTechCalenderTimeInterval"/>
+       <class name="JSTViewTechCalenderPageAutomationUnderTest.TC20ManageTeamVerifyintechcalendartabiftheadditionalbranchesarehavingthetechsdisplayed"/>
+   
+   <class name="JSTViewTechCalenderPageAutomationUnderTest.Q3JST05TC10VerifytheMarkjobasNotifiedoptiondisplayforscheduledandAssignedjob"/>
+   <class name="JSTViewTechCalenderPageAutomationUnderTest.Q3JSTTC26VerifytheMarkjobasRemoveNotifiedoptiondisplayforscheduledandAssignedjobafterfixoption"/>
+     
+   <class name="JSTViewTechCalenderPageAutomationUnderTest.Q3JSTTechCalendarTC014FixJob"/>
+    <class name="JSTViewTechCalenderPageAutomationUnderTest.Q3UnfixJob"/>
+    
+    
+     
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC16JSTViewTechClenderDefaulttimeoffstartinglocationtobranchforInventoryStandardActivities"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC17JSTViewTechCalenderDefaulTimeoffStartinglocationforMeetingStandardActivities"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC4JSTViewTechCalenderJobResize"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.JSTtechCalenderManageTechnician"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.TC7JSTViewTechCalenderFixJobStatus"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q3JST05TC10VerifytheMarkjobasNotifiedoptiondisplayforscheduledandAssignedjob"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

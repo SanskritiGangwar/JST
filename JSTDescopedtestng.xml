@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test" thread-count="2" parallel="tests">
+    <classes>
+    <class name="POneApplicationTestCase.Q3JSTVerifyLimitResults"/>
+     
+      <class name="POneApplicationTestCase.Q3JSTViewOnMap"/>
+      <class name="POneApplicationTestCase.Q3JSTClearAll"/>
+     <class name="JSTSearchPageAutomationUnderTest.JST02TC06VerifytheEditTechStatusscreenisnotEditableafterthejobischangedtoBillableClosedandCompletedStatus"/>
+   
+     <class name="JSTManageTeamPageTechnicianAutomationUnderTest.JSTSmokeDependencyAddingAvailabiltyToTechnician"/>
+     <class name="JSTManageTeamSubContractorAutomationUnderTest.JSTSmokeDependencyAddingAvailabilityToSubContractor"/>
+      	<class name="JSTViewTechCalenderPageAutomationUnderTest.Q3JST05TC10VerifytheMarkjobasNotifiedoptiondisplayforscheduledandAssignedjob"/>
+   <class name="JSTViewTechCalenderPageAutomationUnderTest.Q3JSTTC26VerifytheMarkjobasRemoveNotifiedoptiondisplayforscheduledandAssignedjobafterfixoption"/>
+     
+   <class name="JSTViewTechCalenderPageAutomationUnderTest.Q3JSTTechCalendarTC014FixJob"/>
+    <class name="JSTViewTechCalenderPageAutomationUnderTest.Q3UnfixJob"/>
+
+    <class name="JSTManageTeamSubContractorAutomationUnderTest.JST01TC02AddCapacityForEmployeeforSubContractor"/>
+     <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC49ManageTeamAddCapacityForEmployeeforTechnician"/>
+    
+     <class name="JSTAdminPageAutomationUnderTest.Q2JSTTC21ViewJobcandidatesprocess"/>
+       <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2JSTBRKTC75JobrescheduleReturnreason"/>
+     
+       <class name="JSTManualRescheduleSearchPageAutomationUnderTest.JSTManualRescheduleSearch"/>
+      <class name="JSTManualRescheduleSearchPageAutomationUnderTest.TC56AllowusertorecalljobemployeerecordsforCancelledjobs"/>
+   
+    <class name="JSTManageTeamPageTechnicianAutomationUnderTest.JST12TC31PossibilityofaddingtimeoffsfrommidnightSetdefaultforalldays"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.JST12TC32PossibilityofaddingtimeoffsfrommidnightTechnicianOff"/>
+    <class name="JSTManageTeamPageTechnicianAutomationUnderTest.JST13TC36ShowavailabilityforAfterHoursblockTimeOffType"/>
+  <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC21ManageTeamVerifyifstartandenddateisdisplayedintechavailablitysection"/>
+     <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC43ManageTeamShowAvailabilityForAfterHoursBlock"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC41ManageTeamTimeFormatPossibilityofaddingavailabilityfrommidnight"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC35ManageTeamClearAllAvailability"/>
+  	
+  	 <class name="JSTManageTeamSubContractorAutomationUnderTest.JST01TC02AddCapacityForEmployeeforSubContractor"/>
+     <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC49ManageTeamAddCapacityForEmployeeforTechnician"/>
+   /////////////////////////////////////////////////////////////////////////
+     <class name="POneApplicationTestCase.JSTVerifySiteInfo"/>
+      <class name="POneApplicationTestCase.JSTVerifyTechInfo"/>
+      <class name="POneApplicationTestCase.JSTVerifyJobInfo"/>
+      <class name="POneApplicationTestCase.JSTVerifyJobSummaryInfo"/>
+       <class name="POneApplicationTestCase.JSTVerifyMoredetailsSiteInfo"/>
+      <class name="POneApplicationTestCase.JSTVerifyMoredetailsTechInfo"/>
+       <class name="POneApplicationTestCase.JSTVerifyMoredetailsJobInfo"/>
+         <class name="JSTAdminPageAutomationUnderTest.Q3TC18JST0520SRQ04AddExternalVendorrolegroupAdminDefualtValues"/>
+      
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC001JST0220SRQ193GProgramJSTIdentify3GOpportunitiesExistingCustomer"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC009JST0220SRQ19VerifytheLTEmessageisNOTdisplayonADTJobsIftheyareNOTIdentifiedaseligiblefor3Gconversion"/>
+     <class name="JSTSearchPageAutomationUnderTest.JST02TC06VerifytheEditTechStatusscreenisnotEditableafterthejobischangedtoBillableClosedandCompletedStatus"/>
+    <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2JSTBRKTC75JobrescheduleReturnreason"/>
+     
+       <class name="JSTManualRescheduleSearchPageAutomationUnderTest.JSTManualRescheduleSearch"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

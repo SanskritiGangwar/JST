@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test" >
+    <classes>
+      <class name="JSTSearchPageAutomationUnderTest.JST02TC06VerifytheTemplateisaddedforJobSearchpage"/>
+      <class name="JSTSearchPageAutomationUnderTest.JST02TC07VerifytheCreateTemplateforJobSearchpage"/>
+       <class name="JSTSearchPageAutomationUnderTest.JST02TC08VerifytheUpdateExistingTemplateforJobSearchpage"/>
+      <class name="JSTSearchPageAutomationUnderTest.JST02TC09VerifytheDeleteTemplateforJobSearchpage"/>
+      <class name="JSTSearchPageAutomationUnderTest.JST01TC01FilterthejobsbybranchandVerifyifjobsfromotherbranchesarenotdisplayed"/>
+      <class name="JSTSearchPageAutomationUnderTest.JST03TC06VerifytheJobAgeinJSTUIisdisplayingthewordDaysinjobsearchpage"/>
+      <class name="JSTSearchPageAutomationUnderTest.JST02TC03RevampJobdetailsVerifytheCustomerTypeisaddedtotheSiteInfoScreen"/>
+      <class name="JSTSearchPageAutomationUnderTest.JST02TC04RevampJobdetailsVerifytheEquipmentTypeIDisaddedtotheJobInfoScreen"/>
+      <class name="JSTSearchPageAutomationUnderTest.TC3JSTUpdateJobStatus"/>
+      <class name="JSTMoreDetailsPageAutomationUnderTest.JST14TC37AnalyticsReportingEndToEndFlow"/>
+       <class name="JSTSearchPageAutomationUnderTest.JST03TC09ViewJobCandidatesCurrentjobsscheduledandAssigned"/>
+       <class name="JSTMoreDetailsPageAutomationUnderTest.JST14TC38AnalyticsReportingChangesinJobStatusTobeShown"/>
+   
+      <class name="JSTSearchPageAutomationUnderTest.JST01TC02Searchjobswithoutselectingthebranchandverifyifthejobsfromthebranch9250isnotdisplayed"/>
+      <class name="JSTSearchPageAutomationUnderTest.JSTSiteInfoViewOnMap"/>
+      <class name="JSTSearchPageAutomationUnderTest.JSTVerifyZipCodeInSearchPage"/>
+        <class name="JSTSearchPageAutomationUnderTest.JST02TC05RevampJobdetailsVerifytheSystemEquipmentTypeisdisplaytotheJobInfoScreen"/>
+     
+       <class name="JSTSearchPageAutomationUnderTest.JSTVerifyCityinSearchPage"/>
+      <class name="JSTSearchPageAutomationUnderTest.JSTVerifyStateinSearch"/>
+      <class name="JSTSearchPageAutomationUnderTest.JSTVerifyAddressinSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

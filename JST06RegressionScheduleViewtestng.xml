@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+     
+   <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST01TC04AbilitytofindmoreworkforatechnicianontheJSTMapJobsearchcriteria"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST01TC04ScheduleViewAbilitytofindmoreworkforatechnicianontheJSTMapJobsearchcriteria"/>
+      
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC19VerifyLoadButtoninTechCalendar"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC20SecheduleViewEnabledevenifJobschedulingisnotthere"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC22DataandCalendarsettingsvalidationonScheduleviewtab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC24PerformSearchbyselectingjobonScheduleViewTab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC25PerformSearchbyselectingSearchbyEmployeeonScheduleViewTab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC26PerformSearchbyselectingSearchbyBranchonScheduleViewTab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC28VerifyViewontechcalendarfromJSTJobsearchtab"/>
+      
+    <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC29ScheduleViewTechCalendarBranchTechniciansViewAssignedJobs"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC29TechCalendarBranchTechniciansViewAssignedJobs"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC30TechCalendarBranchTechniciansFindMoreWork"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC31ScheduleViewTechCalendarBranchTechniciansEditStandardActivities"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC31TechCalendarBranchTechniciansEditStandardActivities"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC33TechCalendarScheduleViewBranchTechniciansManageTechnician"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC35TechCalendarScheduleViewBranchTechniciansViewImportantContacts"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC36ScheduleViewTechCalendarBranchTechniciansViewTechNotes"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC36TechCalendarBranchTechniciansViewTechNotes"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC40WanttodisplaytechsMMBnumberinsteadofEMPIDnumberontheTechcalendarScheduleViewTab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC42VerifythecalendarsettingZoomfor1day"/>
+    
+    
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC43VerifythecalendarsettingZoomfor2day"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC44VerifythecalendarsettingZoomfor5day"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC45VerifythecalendarsettingZoomfor7day"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC46VerifythecalendarsettingZoomfor14day"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC47VerifythecalendarsettingZoomfor30day"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC48VerifythecalendarsettingsTimeFormat"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JST04TC59UpdatejobactionslistforjobonScheduleViewcalendartogetopenedbyrightclickforJobs"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JSTTC07VerifythebranchcontactinformationshoulddisplaywhileNavigatetodifferentbranchinManageTeamtabfromscheduleviewtab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JSTTC07VerifythebranchcontactinformationshoulddisplaywhileNavigatetodifferentbranchinManageTeamtabfromtechcalendertab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JSTTC09VerifytheFindMoreWorkoptionisnotworkingonScheduleView"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1JSTTC11VerifytheSavebuttonshouldworkWhileEditingtheJobstatusinScheduleView"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

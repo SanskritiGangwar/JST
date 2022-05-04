@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC01JST0520SRQ01AddSoonestAvailableOffersconfigurationfortech2daysout"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC02JST0520SRQ01AddSoonestAvailableOffersconfigurationfortech3daysout"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC03JST0520SRQ01AddSoonestAvailableOffersconfigurationfortech4daysout"/>
+     
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC04JST0520SRQ01AddSoonestAvailableOffersconfigurationfortech5daysout"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC05JST0520SRQ01AddSoonestAvailableOffersconfigurationfortechDefaultsameday"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC06JST0520SRQ01AddSoonestAvailableOffersconfigurationfortechNextday"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC07JST0520SRQ01AddSoonestAvailableOffersconfigurationfortechSameday"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC08JST0520SRQ03AddadditionalpermissionstoJSTAdminTabBranchRadioButton"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC09JST0520SRQ03AddadditionalpermissionstoJSTAdminTabTeamRadioButtontechcal"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC10JST0520SRQ03AddadditionalpermissionstoJSTAdminTabALLRadioButtontechcal"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC48JST0520SRQ07AddthresholdconfigurationforNextAvailable3GAppointmentsADTMIN"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC49JST0520SRQ07AddthresholdconfigurationforNextAvailable3GAppointmentsADTMAX"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC50JST0520SRQ07AddthresholdconfigurationforNextAvailable3GAppointmentsADTDefault"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC51JST0520SRQ07AddthreholdconfigurationforNextAvailable3GAppointmentsADTBulkUpdate"/>
+      <class name="JSTAdminPageAutomationUnderTest.RegQ3TC01JST0520SRQ01AddSoonestAvailableOffersconfigurationfortech2daysoutManualReschedule"/>
+      <class name="JSTAdminPageAutomationUnderTest.RegQ3TC02JST0520SRQ01AddSoonestAvailableOffersconfigurationfortech3daysoutManualReschedule"/>
+      <class name="JSTAdminPageAutomationUnderTest.RegQ3TC03JST0520SRQ01AddSoonestAvailableOffersconfigurationfortech4daysoutManualReschedule"/>
+    <class name="JSTAdminPageAutomationUnderTest.RegQ3TC04JST0520SRQ01AddSoonestAvailableOffersconfigurationfortech5daysoutManualReschedule"/>
+      <class name="JSTAdminPageAutomationUnderTest.RegQ3TC06JST0520SRQ01AddSoonestAvailableOffersconfigurationfortechNextdayManualReschedule"/>
+      <class name="JSTAdminPageAutomationUnderTest.RegQ3TC07JST0520SRQ01AddSoonestAvailableOffersconfigurationfortechSamedayManualReschedule"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

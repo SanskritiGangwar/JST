@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC16JST0920SRQ05VerifydeletionofMultitechStandardActivityinManageteamtabfromStandardActivitiesRequestsection"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC14JST0920SRQ05VerifydeletionofMultitechStandardActivitybyselectingmultiplebranches"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC15JST0920SRQ05VerifydeletionofMultitechStandardActivitybyselectingmultipletechnicians"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC09JST0920SRQ04VerifytheMainBranchesdisplayedinAssingnedBranchessectionfortechinManageteamtab"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC30JST0920SRQ08VerifythecapacitychangesdeletewhentechisselectedthroughteamtabinManageTeambyvalidatingTechAuditattechnicianlevel"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC70_JST_1220_S_RQ22_Verify3jobGroupsaddedforcommercialMMBSpinklerInspectionInstallServiceinJSTManageteamtabJobGroupsection"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC08JST0920SRQ04VerifythenewchangeAssignedBranchesinsteadofAdditionalbranchesinManageteamtab"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC12JST0920SRQ05VerifyRemovalofMultiTechSAonprticulardayfortechnician"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC06_JST_1220_S_RQ02_VerifytheInventoryPerioddroplistcontinsthevaluesAnnualy_Monthly_QuarterlyinManageteamtabofJST"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC28JST0920SRQ08VerifythecapacitychangesinManageTeamtrackedbyTechAuditwhiledeletingtheCapacityforTechnicians"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC27JST0920SR08VerifythecapacitychangesinManageTeamtrackedbyTechAuditwhileaddingtheCapacityforTechnicians"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC29JST0920SRQ08VerifythecapacitychangesaddwhentechisselectedthroughteamtabinManageTeambyvalidatingTechAuditattechnicianlevel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

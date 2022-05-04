@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="JSTSearchPageAutomationUnderTest.Q1_21_TC21_JST0920SRQ06VerifythemandatorytechwilldisplayinJobSearchtabunderAdditionalinfosectioniftechismandatoryforthejob"/>
+      <class name="JSTManageTeamSubContractorAutomationUnderTest.Q1_21_TC13JST0920SRQ05VerifyremovalofWeeklyRecurrenceMultitechStandardActivityforSubContractorsSubTab"/>
+      <class name="JSTSearchPageAutomationUnderTest.Q1_21_TC20JST0920SRQ06VerifytheViewJobCandidateswillNOTaddaRednexttothetechsphototoindicatetechisNOTmandatoryforthejob"/>
+      <class name="JSTSearchPageAutomationUnderTest.Q1_21_TC31JST0920SRQ09Verifyjobinformationopensautomaticallyinjobsearchbysinglejob"/>
+      <class name="JSTSearchPageAutomationUnderTest.Q1_21_TC19JST0920SRQ06VerifytheViewJobCandidateswilladdaRedMinboldnexttothetechsphototoindicatetechismandatoryforthejob"/>
+      <class name="JSTSearchPageAutomationUnderTest.Q1_21_TC22JST0920SRQ06VerifythemandatorytechwillNOTdisplayinJobSearchtabunderAdditionalinfosectioniftechisNOTmandatoryforthejob"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q1_21_TC66JST1220SRQ19VerifyTeamstechdetailshideintechcalwhenchangethedate"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

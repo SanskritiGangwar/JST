@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC005JST0720SRQ11VerifythewhomarkedRemovejobnotifiedoptionshoulddisplayinjobauditpagenavigatethroughTechCalendartab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC007JST0720SRQ11VerifythewhomarkedjobnotifiedoptionshoulddisplayinjobauditpagenavigatethroughScheduleViewtab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC005JST0720SRQ11VerifythewhomarkedjobnotifiedoptionshoulddisplayinjobauditpagenavigatethroughTechCalendartab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC020JST0720SRQ13WYATiconaddedtolegendinTechCalendarTab"/>
+      <class name="JSTManageTeamSubContractorAutomationUnderTest.Q4TC059JST0720SRQ07VerifyAddSelectorRemoveAllbuttonforEmployeeSkillsetandSystemKnowledgeinManageTeamforTeams"/>
+      <class name="JSTManageTeamSubContractorAutomationUnderTest.Q4TC018JST0720SRQ05AbilitytoaddOvertimetoshiftsatIndividualTechlevelManageTeams"/>
+      <class name="JSTMapAutomationUnderTest.Q4TC055JST0720SRQ06VerifyStartandenddateonroutesforCOMMMMBtechsinMAP"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC023JST0720SRQ16StandardActivityUpdateDeleteStdActivity"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC023JST0720SRQ16StandardActivityUpdateRemoveWeeklyRecurenceStdActivity"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC001JST0720SRQ09VerifytheAddStartDateoptionisaddedforTeamswhileCreateNewTeamonManageTeam"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC015JST0720SRQ05AbilitytoaddOvertimetoshiftsatIndividualTechlevelManageTeamTechnicians"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC028JST0720SRQ8AddSelectRemoveAllbuttonforJobGroupAssignmentManageteamtabTechnicians"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q4TC044JST0720SRQ02VerifyAddBranchrestrictionsinAdminTabYes"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC021JST0720SRQ13WYATiconaddedtolegendinScheduleViewTab"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC060JST0720SRQ15VerifyRemoveWeeklyDefaultAvailabilityfromJSTinmanageteamavailability"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC004JST0720SRQ11VerifythewhomarkedjobnotifiedoptionshoulddisplayinjobauditpagenavigatethroughJobSearchtab"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC007JST0720SRQ11VerifythewhomarkedjobnotifiedoptionshoulddisplayinjobauditpagenavigatethroughMaptab"/>
+      <class name="JSTMapAutomationUnderTest.Q4TC054JST0720SRQ06VerifyStartandenddateonroutesforRESIMMBtechsinMAP"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC007JST0720SRQ11VerifythewhomarkedRemovejobnotifiedoptionshoulddisplayinjobauditpagenavigatethroughScheduleViewtab"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q4TC046JST0720SRQ02VerifyEmployeeSearchrestrictionsinAdminTabYES"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC058JST0720SRQ07VerifyAddSelectorRemoveAllbuttonforEmployeeSkillsetandSystemKnowledgeinManageTeamtodeselectalltheskills"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC008JST0720SRQ12VerifytheoptionCopyJobisaddedtothejobsfromjeopardytray"/>
+       </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

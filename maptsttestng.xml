@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="JSTMapAutomationUnderTest.JST05TC06DisplaythecoverageareanameonaMapfortechnicians"/>
+      <class name="JSTMapAutomationUnderTest.JST01TC02UpdatingCoverageAreastohaveDaysofweekselectedatthetechlevelincoverageareasForAllTechDaysCancelCase"/>
+      <class name="JSTMapAutomationUnderTest.JST04TC05Addabilitytoselectareacolorwhencreatingcoveragearea"/>
+      <class name="JSTMapAutomationUnderTest.JST05TC08DisplaytripareanameonaMapfortechnicians"/>
+      <class name="JSTMapAutomationUnderTest.JST05TC07DisplaythecoverageareanameonaMapforSubContractors"/>
+      <class name="JSTMapAutomationUnderTest.JST06TC10Addoptiontoviewlistoftechsassignedtotripareafromlist"/>
+      <class name="JSTMapAutomationUnderTest.JST03TC04AddabilitytoselectZIPsintripcoverageareasbydrawingonaMap"/>
+      <class name="JSTMapAutomationUnderTest.JST01TC04DeleteTripAreastohaveDaysofweek"/>
+      <class name="JSTMapAutomationUnderTest.JST01TC02UpdatingTripAreatohaveDaysofweekselectedatthetechlevelincoverageareasForAllTechDaysCancelCase"/>
+      <class name="JSTMapAutomationUnderTest.JST01TC04DeleteCoverageAreastohaveDaysofweek"/>
+      <class name="JSTMapAutomationUnderTest.JST09TC22SubContractorSearchviewonMap"/>
+      <class name="JSTMapAutomationUnderTest.JST06TC11Addoptiontoviewlistoftechsassignedtocoverageareafromlist"/>
+      <class name="JSTMapAutomationUnderTest.JST01TC04EditCoverageAreastohaveDaysofweek"/>
+      <class name="JSTMapAutomationUnderTest.JST01TC04EditTripAreastohaveDaysofweek"/>
+      <class name="JSTMapAutomationUnderTest.JST04TC05Addabilitytoselectareacolorwhencreatingtripcoveragearea"/>
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

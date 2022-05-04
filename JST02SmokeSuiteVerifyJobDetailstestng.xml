@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+
+	<class name="JSTSearchPageAutomationUnderTest.JSTClearAll" />
+        <class name="JSTSearchPageAutomationUnderTest.JSTVerifyLimitResults"/>
+    	<class name="JSTSearchPageAutomationUnderTest.JSTViewOnMap"/>
+    	<class name="JSTSearchPageAutomationUnderTest.JSTVerifyJobInfo"/>
+      <class name="JSTSearchPageAutomationUnderTest.JSTVerifySiteInfo"/>
+      <class name="JSTSearchPageAutomationUnderTest.JSTVerifyTechInfo"/>
+  	 <class name="JSTSearchPageAutomationUnderTest.JSTVerifyJobSummaryInfo"/> 
+       <class name="JSTMoreDetailsPageAutomationUnderTest.JSTVerifyMoredetailsJobInfo"/>
+      <class name="JSTMoreDetailsPageAutomationUnderTest.JSTVerifyMoredetailsSiteInfo"/>
+      <class name="JSTMoreDetailsPageAutomationUnderTest.JSTVerifyMoredetailsTechInfo"/>
+    
+     
+          
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

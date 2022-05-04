@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<!--  <test name="Test1:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q2JSTCalendarJeopardySearchWindow" />
+		</classes>
+	</test>-->
+	<test name="Test2:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q2JSTTC21ViewJobcandidatesprocess" />
+		</classes>
+	</test>
+	<!-- <test name="Test3:">
+		<classes>
+			<class
+				name="JSTMapAutomationUnderTest.JST01TC02UpdatingTripAreatohaveDaysofweekselectedatthetechlevelincoverageareasForAllTechDaysCancelCase" />
+		</classes>
+	</test>
+	<test name="Test4:">
+		<classes>
+			<class
+				name="JSTMapAutomationUnderTest.JST03TC04AddabilitytoselectZIPsintripcoverageareasbydrawingonaMap" />
+		</classes>
+	</test>
+	<test name="Test5:">
+		<classes>
+			<class
+				name="JSTMapAutomationUnderTest.JST05TC07DisplaythecoverageareanameonaMapforSubContractors" />
+		</classes>
+	</test>
+	<test name="Test6:">
+		<classes>
+			<class
+				name="JSTMapAutomationUnderTest.JST05TC08DisplaytripareanameonaMapfortechnicians" />
+		</classes>
+	</test>
+	<test name="Test7:">
+		<classes>
+			<class
+				name="JSTMapAutomationUnderTest.JST05TC09DisplaytripareanameonaMapforSubContractors" />
+		</classes>
+	</test> -->
+	<test name="Test8:">
+		<classes>
+			<class
+				name="JSTMapAutomationUnderTest.JST06TC10Addoptiontoviewlistoftechsassignedtotripareafromlist" />
+		</classes>
+	</test>
+	<!--  <test name="Test9:">
+		<classes>
+			<class
+				name="JSTMapAutomationUnderTest.JST06TC11Addoptiontoviewlistoftechsassignedtocoverageareafromlist" />
+		</classes>
+	</test>
+	
+	<test name="Test10:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC04ManageTeamResiDeletethephonenumberandEmailunderRESIEsclationList" />
+		</classes>
+	</test>-->
+	<test name="Test11:">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC058JST0220SRQ25AssignedAddJobAuditlogwhenschedulejobwithchecktraveltimeandUncheckIgnoreskillJobSearch"></class>
+		</classes>
+	</test>
+	<!--  <test name="Test12:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC06ManageTeamCommModifythephonenumberandEmailunderCOMMEsclationList" />
+		</classes>
+	</test>
+	<test name="Test13:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC07ManageTeamCommDeletethephonenumberandEmailunderCOMMEsclationList" />
+		</classes>
+	</test>
+	<test name="Test14:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC09ManageTeamOSCModifyphonenumberandEmail" />
+		</classes>
+	</test>
+	<test name="Test15:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.TC10ManageTeamOSCDeletethephonenumberandEmailunderOSCContactList" />
+		</classes>
+	</test>
+	<test name="Test16:">
+		<classes>
+			<class
+				name="JSTSearchPageAutomationUnderTest.JST03TC09ViewJobCandidatesCurrentjobsscheduledandAssigned" />
+		</classes>
+	</test>
+	<test name="Test17:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC06_JST_1220_S_RQ02_VerifytheInventoryPerioddroplistcontinsthevaluesAnnualy_Monthly_QuarterlyinManageteamtabofJST"></class>
+		</classes>
+	</test>
+	<test name="Test18:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC08JST0920SRQ04VerifythenewchangeAssignedBranchesinsteadofAdditionalbranchesinManageteamtab" />
+		</classes>
+	</test>
+	<test name="Test19:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q1_21_TC10JST0920SRQ04VerifydisplayofAssignedbranchesfortechinadmintab" />
+		</classes>
+	</test>-->
+	<test name="Test20:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC14JST0920SRQ05VerifydeletionofMultitechStandardActivitybyselectingmultiplebranches" />
+		</classes>
+	</test>
+
+	<test name="Test21:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC15JST0920SRQ05VerifydeletionofMultitechStandardActivitybyselectingmultipletechnicians"></class>
+		</classes>
+	</test>
+	<!--  <test name="Test22:">
+		<classes>
+			<class
+				name="JSTSearchPageAutomationUnderTest.Q1_21_TC19JST0920SRQ06VerifytheViewJobCandidateswilladdaRedMinboldnexttothetechsphototoindicatetechismandatoryforthejob"></class>
+		</classes>
+	</test>
+	<test name="Test23:">
+		<classes>
+			<class
+				name="JSTSearchPageAutomationUnderTest.Q1_21_TC20JST0920SRQ06VerifytheViewJobCandidateswillNOTaddaRednexttothetechsphototoindicatetechisNOTmandatoryforthejob"></class>
+		</classes>
+	</test>
+	
+	<test name="Test24:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q1_21_TC21_JST1220SRQ02VerifythemessageAutomatedInventorywouldnotberescheduledforFailedCountsIfInventoryFailuresetto0"></class>
+		</classes>
+	</test>
+	<test name="Test25:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC27JST0920SR08VerifythecapacitychangesinManageTeamtrackedbyTechAuditwhileaddingtheCapacityforTechnicians"></class>
+		</classes>
+	</test>
+	<test name="Test26:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q1_21_TC28_JST_1220_S_RQ02_VerifytheAutomatedInventorySchedulingisEnabled_DisbaledIftheoptionIsActiveForInventorySchedulingsettoYES_NoinadmintabofJST"></class>
+		</classes>
+	</test>
+	<test name="Test27:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC29JST0920SRQ08VerifythecapacitychangesaddwhentechisselectedthroughteamtabinManageTeambyvalidatingTechAuditattechnicianlevel"></class>
+		</classes>
+	</test>
+	<test name="Test28:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q1_21_TC40_JST_1220_S_RQ07_Verifytheupdatecallcenterflowtocheckupto3weeksoutforappointmentsinJSTUI"></class>
+		</classes>
+	</test>-->
+	<test name="Test29:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q1_21_TC41_JST1220SRQ09VerifyIfTechisnotvisiblethenjobwillnotassignedwhenuserclickonAssingAllJobsbuttoninTechCalendar"></class>
+		</classes>
+	</test>
+	<test name="Test30:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q1_21_TC45JST1220SRQ09VerifyIfTechisvisiblethenjobwillassignedwhenuserclickonAssingAllJobsbuttoninTechCalendar"></class>
+		</classes>
+	</test>
+	<!--<test name="Test31:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q1_21_TC70_JST_1220_S_RQ22_Verify3jobGroupsaddedforcommercialMMBSpinklerInspectionInstallServiceinJSTManageteamtabJobGroupsection" />
+		</classes>
+	</test>-->
+	<test name="Test32:">
+		<classes>
+			<class
+				name="JSTManageTeamSubContractorAutomationUnderTest.TC32ManageTeamSubContractorAudittableforManageteamLikeJobAudit"></class>
+		</classes>
+	</test>  
+	<!--  <test name="Test33:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q2_21_TC007JST0121S_RQ03Verifythe_JobGroupCategories_sectionaddedinSkillManagementofadmintab"></class>
+		</classes>
+	</test>-->
+	<test name="Test34:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC01_JST_1220_S_RQ02_VerifytheTechExceptionsbysettingmultipleTechsfordiffInventoryPeriodanddiffInventoryTimeRange"></class>
+		</classes>
+	</test>
+	<test name="Test35:">
+		<classes>
+			<class
+				name="JSTManageTeamSubContractorAutomationUnderTest.Q2_21_TC010_JST_0121_S_RQ04_verifytheJobgroupUIredesignMultitechJobgroupforSubcontractors"></class>
+		</classes>
+	</test>
+	<test name="Test36:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q2_21_TC011_JST_0121_S_RQ04_VerifyJobgroupselectioninAdminTabunderSkillmanagement"></class>
+		</classes>
+	</test>
+	<!-- <test name="Test37:">
+		<classes>
+			<class
+				name="JSTAdminPageAutomationUnderTest.Q2_21_TC013_JST_0121_S_RQ04_VerifyCategorizedanduncategorizedlist"></class>
+		</classes>
+	</test>
+	<test name="Test38;">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC015_JST_0121_S_RQ05_VerifytheassignedJobGroupsshoulddisplayontopfor_JobGroupEfficiency_listinManageTeam"></class>
+		</classes>
+	</test>
+	<test name="Test39:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC025_JST_0121_S_RQ08_VerifyEstdHrMinandMaxvalueinManageteam"></class>
+		</classes>
+	</test> -->
+	<test name="Test40:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC026_JST_0121_S_RQ08_VerifyConfigurejobgroupforthetechbasedontheEstdhrs"></class>
+		</classes>
+	</test>
+	<test name="Test41:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC03_JST_1220_S_RQ02_VerifytheInventoryTimeRangeIfEndofTechsShiftissetthedroplist"></class>
+		</classes>
+	</test>
+	<test name="Test42:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC043_JST_0121_S_RQ11_VerifyAutomatedInventoryrunManuallyinInventorycalendarTechaddfromManageteamTabSA"></class>
+		</classes>
+	</test>
+	<test name="Test43:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC044_JST_0121_S_RQ11_VerifyAutomatedInventoryrunManuallyinInventorycalendarTechaddfromTechcalendarTabSA"></class>
+		</classes>
+	</test>
+	<!-- <test name="Test44:">
+		<classes>
+			<class
+				name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC057JST0220SRQ25ScheduledAddJobAuditlogwhenschedulejobwithUncheckbothtraveltimeorIgnoreskillinSmartscheduleJobSearch"></class>
+		</classes>
+	</test>
+	<test name="Test45:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC107_JST_0121_RQ11_VerifyRemoveAutomatedInventoryrunManuallyinInventorycalendar"></class>
+		</classes>
+	</test>
+	<test name="Test46:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC17_JST_1220_S_RQ02_VerifytheAnnualReschedulingPeriodforMissedCountswithMindaysandMaxdays"></class>
+		</classes>
+	</test> -->
+	<test name="Test47:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC18_JST_1220_S_RQ02_VerifytheMonthlyReschedulingPeriodforMissedCountswithMindaysandMaxdays"></class>
+		</classes>
+	</test>
+	<!--  <test name="Test48:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q2_21_TC19_JST_1220_S_RQ02_VerifytheQuarterlyReschedulingPeriodforMissedCountswithMindaysandMaxdays"></class>
+		</classes>
+	</test>-->
+	<test name="Test49:">
+		<classes>
+			<class
+				name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC022JST0720SRQ16StandardActivityWeeklyRecurrence"></class>
+		</classes>
+	</test>
+	<test name="Test50:">
+		<classes>
+			<class
+				name="JSTManageTeamSubContractorAutomationUnderTest.Q4TC059JST0720SRQ07VerifyAddSelectorRemoveAllbuttonforEmployeeSkillsetandSystemKnowledgeinManageTeamforSubContractors"></class>
+		</classes>
+	</test>
+	
+	
+	
+	
+</suite>

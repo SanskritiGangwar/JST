@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.JST11TC24PossibilityofaddingavailabilityfrommidnightcheckinTechcalendar"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.JST12TC30PossibilityofaddingtimeoffsfrommidnightNight12to7buttonadded"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC02ManageTeamResiAddaTechunderRESIEsclationList"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC04ManageTeamResiDeletethephonenumberandEmailunderRESIEsclationList"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC05ManageTeamCommAddaTechunderCOMMEsclationList"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC07ManageTeamCommDeletethephonenumberandEmailunderCOMMEsclationList"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC09ManageTeamOSCModifyphonenumberandEmail"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC10ManageTeamOSCDeletethephonenumberandEmailunderOSCContactList"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC34ManageTeamDisplaylastchangeuser"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC42ManageTeamPossibilityofaddingtimeoffsfrommidnightWeeklydefaultavailable"/>
+       
+       
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC06ManageTeamCommModifythephonenumberandEmailunderCOMMEsclationList"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC08ManageTeamOSCAddaTechunderOSCContactList"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC54ManageTeamDeleteExtensionForWorkPhone"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC53ManageTeamAddExtensionForWorkPhone"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC15ManageTeamAddmultipleadditionalbrancheswithdifferentbranchesapartfromtheoriginalbranchaddedtothetechinician"/>
+   <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC14ManageTeamResiModifyphonenumberandEmail"/>
+       <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC65ManageTeamTechniciansAbilitytosearchskillsetstoverifywhichtechsinbranchhaveskillAssigned"/>
+  	 <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC01ManageTeamVerifytheImportantContactslistwilldisplaytheRESIEsclationListCOMMEsclationListandOSCContactList"/>
+    <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC22ManageTeamVerifystartandenddateforadditionalbranchesadded"/>
+     
+  	
+    <class name="JSTManageTeamPageTechnicianAutomationUnderTest.JST12TC28PossibilityofaddingtimeoffsfrommidnightcheckinTechcalendar"/>
+    
+    <class name="JSTManageTeamPageTechnicianAutomationUnderTest.JST13TC35ShowavailabilityforAfterHoursblockNight12to7buttonadded"/>
+    <class name="JSTManageTeamPageTechnicianAutomationUnderTest.TC32ManageTeamTechnicianAudittableforManageteamLikeJobAudit"/>
+    
+  	
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

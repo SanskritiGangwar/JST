@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="JSTAdminPageAutomationUnderTest.Q4TC048JST0720SRQ02VerifyAddBranchrestrictioninTechcal"/>
+      <class name="JSTManageTeamSubContractorAutomationUnderTest.Q4TC026JST0720SRQ8AddSelectRemoveAllbuttonforJobGroupAssignmentManageteamtabSubContractors"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC023JST0720SRQ16StandardActivityUpdate"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC023JST0720SRQ16StandardActivityUpdateClearAllStdActivity"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC051JST0720SRQ03VerifyAbilitytoshowdetailsforTemplatewithinManageTeamAvailabilitysectioncreateCapacityTemplate"/>
+      <class name="JSTMapAutomationUnderTest.Q4TC056JST0720SRQ06VerifyStartandenddateonroutestechshouldnotshowintheroutesafterenddate"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC053JST0720SRQ03VerifyAbilitytoshowdetailsforTemplatewithinManageTeamAvailabilityAddinggridforaddorremovetheavailabilityforoneday"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC049JST0720SRQ03VerifyAbilitytoshowdetailsforTemplatewithinManageTeamAvailabilityToolTipfortemplate"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q4TC047JST0720SRQ02VerifyEmployeeSearchrestrictionsinAdminTabNo"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC057JST0720SRQ07VerifyAddSelectorRemoveAllbuttonforEmployeeSkillsetandSystemKnowledgeinManageTeamtoselectalltheskills"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q41TC050JST0720SRQ03VerifyAbilitytoshowdetailsforTemplatewithinManageTeamAvailabilityIiconforthetemplatedetails"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC022JST0720SRQ16StandardActivityWeeklyRecurrence"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC025JST0720SRQ04AddMissedCommitmentNotifiedoptiontojobmenuScheduleView"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q4TC045JST0720SRQ02VerifyAddBranchrestrictionsinAdminTabNo"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC052JST0720SRQ03VerifyAbilitytoshowdetailsforTemplatewithinManageTeamAvailabilityAddalljobgroups"/>
+      <class name="JSTManageTeamSubContractorAutomationUnderTest.Q4TC017JST0720SRQ05AbilitytoaddOvertimetoshiftsatIndividualTechlevelManageTeamSubContractors"/>
+      <class name="JSTViewTechCalenderPageAutomationUnderTest.Q4TC024JST0720SRQ04AddMissedCommitmentNotifiedoptiontojobmenuTechCalendar"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC002JST0720SRQ09VerifytheAddStartDateoptionisaddedforTeamswhileEditTeamonManageTeam"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC003JST0720SRQ09VerifytheAddStartDateoptionisaddedforTechnicianstabonManageTeam"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC023JST0720SRQ16StandardActivityUpdateAddStdActivity"/>
+      <class name="JSTManageTeamPageTechnicianAutomationUnderTest.Q4TC027JST0720SRQ8AddSelectRemoveAllbuttonforJobGroupAssignmentManageteamtabTeams"/>
+      <class name="JSTManageTeamSubContractorAutomationUnderTest.Q4TC059JST0720SRQ07VerifyAddSelectorRemoveAllbuttonforEmployeeSkillsetandSystemKnowledgeinManageTeamforSubContractors"/>
+      
+       </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

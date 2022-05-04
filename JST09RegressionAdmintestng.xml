@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+    
+      <class name="JSTAdminPageAutomationUnderTest.Q2JSTTechCalendarTC012CopyJobNumber"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q2JST03TC10UpdatingpermissionsforupdatingAddressesReadOnly"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q2JST03TC12UpdatingpermissionsforupdatingAddressesAllBranches"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q2TC060JST0220SRQ26AddPermissionsforIgnoretraveltimeandignoreskillswhensmartscheduling"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q2TC061JST0220SRQ26MultipletimescheckuncheckthePermissionsorIgnoretraveltimeandignoreskillswhensmartscheduling"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q2TC062JST0220SRQ26NoPermissionsforIgnoretraveltimeandignoreskillswhensmartscheduling"/>
+     <class name="JSTAdminPageAutomationUnderTest.Q2JSTCalendarJeopardySearchWindow"/>
+    
+     <class name="JSTAdminPageAutomationUnderTest.Q2FixedissuewithnotshowingTechnicianwithoutavailabilityonScheduleviewwhensearchbytechandinFindTechnicianflow"/>
+       <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC064JST0220SRQ46RechedulejobfromtheresultsofSameSiteJobsonlyfilter"/>
+    <class name="JSTAdminPageAutomationUnderTest.Q2JSTTC21ViewJobcandidatesprocess"/>
+ </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

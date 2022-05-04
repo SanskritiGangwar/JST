@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test" >
+    <classes>
+   	          
+     
+     <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC055JST0220SRQ25ValidatethebothtraveltimeorIgnoreskillinSmartschedulefeaturewiththeuserwhodoesnothavepermissiontomodifytheprivileges"/>
+    <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC057JST0220SRQ25AssignedAddJobAuditlogwhenschedulejobwithUncheckbothtraveltimeorIgnoreskillinSmartscheduleJobSearch"/>
+      <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC37JSTREGMar2020ValidateallthelinksonJobDetailspopupwindowRef268"/>
+      <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC057JST0220SRQ25OpenAddJobAuditlogwhenschedulejobwithUncheckbothtraveltimeorIgnoreskillinSmartscheduleJobSearch"/>
+
+     <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC058JST0220SRQ25OpenAddJobAuditlogwhenschedulejobwithchecktraveltimeandUncheckIgnoreskillJobSearch"/>
+     <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2JST06TC11Wanttomanualschedulejobswithtimebands"/>
+      <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2JST09TC29CreatebuttontoremovescheduledjobswhenremovingtechnicianfromJSTMakingtechInactive"/>
+    <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC059JST0220SRQ25ScheduleJobAddJobAuditlogwhenschedulejobwithUnchecktraveltimeandcheckIgnoreskillJobSearch"/>
+    <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC058JST0220SRQ25AssignedAddJobAuditlogwhenschedulejobwithchecktraveltimeandUncheckIgnoreskillJobSearch"/>
+   <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2UpdatedrulesofshowingEmpNowhenviewingTeamslinkedtobranchesfrom2companies"/>
+   <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC073JST0220SRQ71AddRescheduleJobbuttontoJobActionsmenuTechCalendar"/>
+    <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC059JST0220SRQ25OpenJobAddJobAuditlogwhenschedulejobwithUnchecktraveltimeandcheckIgnoreskillJobSearch"/>
+      
+     <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC075JST0220SRQ72UpdateFindMoreWorkandSearchfunctionalitytoreturnemployeejoboffers"/>
+      <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC077JST0220SRQ72UpdateFindMoreWorkandSearchfunctionalitytoreturnemployeejoboffers"/>
+    <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC056JST0220SRQ25ScheduledAddJobAuditlogwhenschedulejobwithcheckbothtraveltimeorIgnoreskillinSmartscheduleJobSearch"/>
+      <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC054JST0220SRQ25AddJobAuditlogwhenschedulejobwithUnchecktraveltimeandcheckIgnoreskillinSmartscheduleJobSearch"/>
+   <class name="JSTManualRescheduleSearchPageAutomationUnderTest.Q2TC056JST0220SRQ25AssignedAddJobAuditlogwhenschedulejobwithcheckbothtraveltimeorIgnoreskillinSmartscheduleJobSearch"/>
+     
+   
+ 	
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

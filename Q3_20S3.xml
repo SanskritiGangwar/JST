@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     
+      
+    
+     
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC11JST0520SRQ04AddExternalVendorrolegroupAdditionalRestrictionsDefualtValues"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC12JST0520SRQ04AddExternalVendorrolegroupAdditionalRestrictionsAllowedTeamsYES"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC13JST0520SRQ04AddExternalVendorrolegroupAdditionalRestrictionsFindMoreWorkonMapScheduleView"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC14JST0520SRQ04AddExternalVendorrolegroupAdditionalRestrictionsFindMoreWorkonMapTechCalendar"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC15JST0520SRQ04AddExternalVendorrolegroupAdditionalRestrictionFindMoreWorkonSearchScheduleView"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC16JST0520SRQ04AddExternalVendorrolegroupAdditionalRestrictionsFindMoreWorkonSearchTechCalendar"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC17JST0520SRQ04AddExternalVendorrolegroupAdditionalRestrictionsJobGroupRestrictionsYES"/>
+<class name="JSTAdminPageAutomationUnderTest.Q3TC18JST0520SRQ04AddExternalVendorrolegroupAdminDefualtValues"/>
+      
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC19JST0520SRQ04AddExternalVendorrolegroupDashBoardDefualtValues"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC20JST0520SRQ04AddExternalVendorrolegroupJobSearchDefualtValues"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC21JST0520SRQ04AddExternalVendorrolegroupManageTeamDefualtValues"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC22JST0520SRQ04AddExternalVendorrolegroupMapDefualtValues"/>
+      <class name="JSTAdminPageAutomationUnderTest.Q3TC24JST0520SRQ04AddExternalVendorrolegroupTechCalendarDefualtValues"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
